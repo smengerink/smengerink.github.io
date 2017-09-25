@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Comfortaa');
+
+body {
+    font-family: Comfortaa;
+    font-size: 16px;
+    font-weight: normal;
+    background: url(https://i.pinimg.com/736x/14/d5/d8/14d5d8151c7b8e3d5d4f247cefdd597a--grey-art-texture.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2, h3 {
+    font-family: Anton;
+}
+
+h4 {
+    font-family: anton;
+    position: fixed;
+    top: 70px;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* Layout */
+.header {
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    box-sizing: border-box;
+}
+
+
+.header h1 {
+    float: left;
+}
+
+.header h2 {
+    float: right;
+}
+
+.footer {
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align:left;
+    
+}
+
+.content {
+    margin: 100px auto;
+    max-width: 700px;
+    text-align: center;
+}
+
+.event {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.event h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.event .location {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    position: absolute;
+    font-size: 30px;
+    top: -30px;
+    right: -30px;
+    border-radius: 50%
+}
+
+.event ul {
+    font-family: 'anton';
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.event ul li {
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-family: avenir next;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
